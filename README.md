@@ -1,9 +1,9 @@
-# Polymorphism, Inheritance and Composition
+# Inheritance and Composition
 
 > "Designing object-oriented software is hard, and designing reusable object-oriented software is even harder."
 > – Design Patterns: Elements of Reusable Object-Oriented Software
 
-Polymorphism, inheritance and composition - what are they, and where should I use them?
+Inheritance and composition - what are they, and where should I use them?
 
 ## Learning Objectives
 
@@ -104,7 +104,7 @@ class Vehicle {
     return `moving at ${this.topSpeed}`
   }
 
-  startEngine {
+  startEngine() {
     return "vroooom!!"
   }
 }
