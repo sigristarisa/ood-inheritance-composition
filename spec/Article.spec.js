@@ -1,9 +1,10 @@
-const Article = require('../src/Article.js')
+const { Article, Author } = require('../src/Readable.js')
 
 describe("Article", () => {
-  let article
+  let article, author
   beforeEach(() => {
-    article = new Article('My Lovely Book')
+    author = new Author("Arisa", 777777)
+    article = new Article('My Lovely Book', author)
   })
 
   describe('#constructor', () => {

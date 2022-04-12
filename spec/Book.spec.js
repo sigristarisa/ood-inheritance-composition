@@ -1,4 +1,5 @@
-const Book = require('../src/Book.js')
+const { Book } = require('../src/Readable.js')
+
 
 describe("Book", () => {
   let book

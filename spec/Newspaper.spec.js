@@ -1,4 +1,4 @@
-const Newspaper = require('../src/Newspaper.js')
+const { Newspaper } = require('../src/Readable.js')
 
 describe("Newspaper", () => {
   let newspaper
